@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="utf-8">
+<body>
+    <table border="1">
+        <tr>
+            <th>人物素描</th>
+            <th>腳色</th>
+            <th>人物介紹</th>
+        </tr>
+        <tr>
+            <td><img src="piece1.jpg" width="100"></td>
+            <td>喬巴</td>
+            <td>醫生</td>
+        </tr>    
+        <tr>
+            <td><img src="piece2.jpg" width="100"></td>
+            <td>索隆</td>
+            <td>劍士</td>
+        </tr>    
+        <tr>
+            <td><img src="piece3.jpg" width="100"></td>
+            <td>弗朗基</td>
+            <td>船匠</td>
+        </tr>    
+    </table>
+</body>

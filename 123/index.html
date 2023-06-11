@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>草莓之樂</title>
+  <title>草莓品種</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -60,17 +60,20 @@
       margin-bottom: 20px;
     }
     
-    .image-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      grid-gap: 20px;
+    .strawberry-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       margin-bottom: 20px;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 4px;
     }
     
-    .image-grid img {
-      width: 100%;
+    .strawberry-card img {
+      width: 200px;
       height: auto;
-      border-radius: 4px;
+      margin-bottom: 10px;
     }
     
     footer {
@@ -83,7 +86,7 @@
 </head>
 <body>
   <header>
-    <h1>草莓之樂</h1>
+    <h1>草莓品種</h1>
   </header>
   
   <nav>
@@ -96,7 +99,15 @@
   </nav>
   
   <main>
-    <section id="about">
-      <h2>關於草莓</h2>
-      <p>草莓是一種美味的水果，它有許多健康益處。草莓富含維生素C、纖維和抗氧化劑，有助於保護心臟健康，增強免疫系統，並改善消化功能。草莓也可以生吃、加入沙
-        
+    <section id="varieties">
+      <h2>草莓品種</h2>
+      
+      <div class="strawberry-card">
+        <img src="strawberry1.jpg" alt="品種1">
+        <h3>品種1</h3>
+        <p>這是品種1的描述。它具有特定的特徵和特點。</p>
+      </div>
+      
+      <div class="strawberry-card">
+        <img src="strawberry2.jpg" alt="品種2">
+        <h3>品種
